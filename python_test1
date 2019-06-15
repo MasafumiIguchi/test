@@ -1,12 +1,17 @@
 
 #def f(n):
 
+#place_k
 #case15
-if n%15 == 0 :
-    return('FuzzBuzz')
+    if n%15 == 0 :
+        return 'FuzzBuzz'
 #case3
-elif n%3 == 0 :
-    return ('Fuzz')
+    elif n%3 == 0 :
+        return 'Fuzz'
 #case5
-else n%5 == 0 :
-    return ('Buzz')
+    else n%5 == 0 :
+        return 'Buzz'
+    else:
+        return ''
+      
+
