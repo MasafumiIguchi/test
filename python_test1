@@ -1,5 +1,5 @@
 
-def f(n):
+#def f(n):
 
 #case15
 if n%15 == 0 :
